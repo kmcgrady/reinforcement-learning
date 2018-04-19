@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "babel-runtime": "*",
-    "underscore":"*"
+    "lodash":"*"
   },
   "bugs": {
     "url": "https://github.com/rauljordan/reinforcement-learning/issues"
