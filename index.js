@@ -1,4 +1,7 @@
 var _ = require('underscore');
-var allExports = require('./dist/mdp');
-module.exports = _.extend(allExports, require('./dist/iteration'))
-module.exports.utils = require('./dist/utils');
+var allExports = require('./lib/mdp');
+module.exports = {
+  MDP: require('./lib/mdp'),
+  ...require('./lib/iteration'),
+  utils: require('./lib/utils')
+};
